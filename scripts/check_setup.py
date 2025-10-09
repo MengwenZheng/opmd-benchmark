@@ -1,11 +1,13 @@
 import platform
 
+
 def safe_import(name):
     try:
         mod = __import__(name)
         return mod, None
     except Exception as e:
         return None, e
+
 
 def main():
     print("=== Environment sanity check ===")
@@ -32,12 +34,16 @@ def main():
         print("PIL (Pillow): FAILED ->", err)
     else:
         from PIL import Image as PIL_Image
+
         PIL_Image.new("RGB", (64, 64)).resize((32, 32))
         print("PIL OK")
 
     ok = (torch is not None) and (PIL_Image is not None) and (openslide is not None)
-    print("=== Result:", "✅ Environment looks good!" if ok else "⚠️  Some checks failed.")
+    print(
+        "=== Result:", "✅ Environment looks good!" if ok else "⚠️  Some checks failed."
+    )
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())
