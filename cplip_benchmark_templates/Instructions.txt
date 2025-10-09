@@ -1,0 +1,7 @@
+patients.csv(one row per patient; baseline fatures only)
+slide.csv(one row per slide; file path & scanner fields)
+roi_annotations.csv(one row per ROI file per slide)
+outcome.csv(transformation/competing-risk datas + censoring)
+splits.csv(patient-level fold + split)
+optional: visits.csv stain_refs.csv tiles_manifest.csv
+ 

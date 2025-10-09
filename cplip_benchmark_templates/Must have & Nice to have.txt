@@ -1,0 +1,18 @@
+Must have:
+WSIs(H&E): original slide files(.svs/.tif) with basic scanner metadata(magnification, µm/px)
+Patient-level baseline table: demographics and baseline clinical factors only(no post-index information)
+Outcome & data: transformation(yes/no), transformation date, last follow-up date; death date/cause(for competing risk)
+Frozen splits: a patient-level split file(Train/Val/Test or LOSO), locked before any modelling.
+Slide manifest: slide_id, patient_id/lesion_id/site, file paths, stain/scanner information.
+
+Optional have:
+Visit history: per-visit dates, whether biopsy occurred, histology grade at that visit, treatment(kept out of baseline features).
+
+Stain-normalisation references: a few “clean” tiles per site for Macenko ablations.
+
+Tiles/embeddings manifest: where cached tiles/embeddings live, with tile size, overlap, target magnification.
+
+Site glossary & coding rules: how each site codes smoking, alcohol, lesion types, etc.
+
+Governance bundle: de-ID key (kept offline), ethics approvals, DUAs, and a README that defines time-zero, inclusion/exclusion, and follow-up window.
+

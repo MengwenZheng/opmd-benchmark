@@ -1,0 +1,34 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "train": [],
+      "val": [],
+      "test": []
+    },
+    {
+      "fold": 2,
+      "train": [],
+      "val": [],
+      "test": []
+    },
+    {
+      "fold": 3,
+      "train": [],
+      "val": [],
+      "test": []
+    },
+    {
+      "fold": 4,
+      "train": [],
+      "val": [],
+      "test": []
+    },
+    {
+      "fold": 5,
+      "train": [],
+      "val": [],
+      "test": []
+    }
+  ]
+}

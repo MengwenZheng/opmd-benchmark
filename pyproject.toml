@@ -1,0 +1,12 @@
+[project]
+name = "opmd-benchmark"
+version = "0.0.1"
+description = "Benchmark for OPMD risk prediction"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

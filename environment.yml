@@ -1,0 +1,32 @@
+
+**`environment.yml`** (preferred for reproducibility)
+```yaml
+name: opmd-bench
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - tqdm
+  - pillow
+  - tifffile
+  - openslide
+  - pip:
+      - opencv-python
+      - albumentations
+      - rich
+      - hydra-core
+      - omegaconf
+      - lightning
+      - pyvips
+      - wandb
+      - black
+      - ruff
