@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\zheng\\.conda\\envs\\opmd-bench\\python.exe",
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "python.linting.enabled": true,
+  "python.linting.ruffEnabled": true,
+  "python.linting.ruffArgs": ["--line-length=100"],
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
