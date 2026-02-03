@@ -1,6 +1,11 @@
 # OPMD Risk / CPLIP Benchmark
 
-Reproducible benchmarking for OPMD malignant transformation using WSI + CPLIP/PLIP.
+Benchmark for AI-based risk stratification of oral potentially malignant disorders
+
+
+Key notes:
+- The final stable version will remain archived and citable.
+
 
 ## Quickstart
 ```bash
