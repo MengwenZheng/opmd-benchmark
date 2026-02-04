@@ -70,5 +70,13 @@ composition, and limitations, is provided in the
 > This repository currently provides benchmark documentation,
 > configuration, and evaluation code only.
 
+## Repository Structure
+
+- `DATASET_CARD.md`: Dataset description and governance
+- `EVALUATION_PROTOCOL.md`: Fixed evaluation rules
+- `baselines/`: Reference model implementations
+- `configs/`: Benchmark configuration files
+- `splits/`: Predefined CV and LOSO splits
+
 
 If retirement occurs, the final stable version will remain archived and citable, but no further updates will be guaranteed.
