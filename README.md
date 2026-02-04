@@ -61,4 +61,10 @@ All discussions are public to ensure transparency.
 
 The benchmark may be retired or frozen if data governance, ethical, or institutional constraints require it.
 
+## Dataset
+Detailed information about the dataset, including intended use,
+composition, and limitations, is provided in the
+[Dataset Card](DATASET_CARD.md).
+
+
 If retirement occurs, the final stable version will remain archived and citable, but no further updates will be guaranteed.
