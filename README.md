@@ -66,5 +66,9 @@ Detailed information about the dataset, including intended use,
 composition, and limitations, is provided in the
 [Dataset Card](DATASET_CARD.md).
 
+> ⚠️ Data are not yet publicly released.
+> This repository currently provides benchmark documentation,
+> configuration, and evaluation code only.
+
 
 If retirement occurs, the final stable version will remain archived and citable, but no further updates will be guaranteed.
